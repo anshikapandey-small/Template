@@ -85,19 +85,43 @@ body {
 ========================= */
 
 .contact-hero {
-  min-height: 720px;
-  height: 720px;
+  min-height: 650px;
+  height: 650px;
 
   position: relative;
 
   background-image: url("../media/images/contact-section.png");
   background-size: cover;
-  background-position: center;
+  background-position: center right;
   background-repeat: no-repeat;
 
   overflow: hidden;
 }
 
+/* Hide the unwanted text/form already printed inside the background image */
+.contact-hero::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 48%;
+  height: 100%;
+  background: rgba(205, 181, 157, 0.97);
+  z-index: 1;
+}
+
+/* Cover the fake form that is already inside the image */
+.contact-hero::after {
+  content: "";
+  position: absolute;
+  left: 42%;
+  top: 90px;
+  width: 38%;
+  height: 500px;
+  background: rgba(205, 181, 157, 0.97);
+  border-radius: 15px;
+  z-index: 1;
+}
 .contact-overlay {
   position: absolute;
   inset: 0;
