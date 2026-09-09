@@ -85,10 +85,12 @@ body {
 ========================= */
 
 .contact-hero {
-  min-height: calc(100vh - 78px);
+  min-height: 720px;
+  height: 720px;
+
   position: relative;
 
-  background-image: url("../media/contact-section.png");
+  background-image: url("../media/images/contact-section.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
