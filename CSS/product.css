@@ -319,7 +319,7 @@ img {
   color: var(--grey);
 }
 
-@media (max-width: 700px) {
+@media (max-width: 760px) {
   .site-footer {
     grid-template-columns: 1fr;
   }

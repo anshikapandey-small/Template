@@ -254,7 +254,7 @@ img {
   grid-template-columns: repeat(4, 1fr);
   gap: 16px;
 }
-@media (max-width: 980px) {
+@media (max-width: 900px) {
   .collections-grid {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -428,7 +428,7 @@ img {
   border-top: 1px solid var(--line);
   border-left: 1px solid var(--line);
 }
-@media (max-width: 980px) {
+@media (max-width: 900px) {
   .grid {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -621,7 +621,7 @@ img {
   border-top: 1px solid var(--line);
   text-align: center;
 }
-@media (max-width: 700px) {
+@media (max-width: 760px) {
   .features {
     grid-template-columns: 1fr;
     gap: 56px;
