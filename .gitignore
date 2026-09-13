@@ -1,0 +1,29 @@
+# macOS
+._*
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+
+# Node (if using for build tools)
+node_modules/
+.npm
+package-lock.json
+
+# Build artifacts
+dist/
+build/
+
+# Environment
+.env
+.env.local
+
+# OS temp files
+*~
+*.tmp
+Thumbs.db

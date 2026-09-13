@@ -19,7 +19,7 @@
     UMBRA
   </div>
   <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
-    <svg viewBox="0 0 24 24" fill="none"><path d="M3 6h18M3 12h18M3 18h18" stroke="#0a0a0a" stroke-width="1.6" stroke-linecap="round"/></svg>
+    <svg aria-hidden="true" viewBox="0 0 24 24" fill="none"><path d="M3 6h18M3 12h18M3 18h18" stroke="#0a0a0a" stroke-width="1.6" stroke-linecap="round"/></svg>
   </button>
   <div class="nav-links" id="navLinks">
     <a href="index.html">Home</a>
@@ -29,8 +29,8 @@
     <a href="customize.html">Customize</a>
   </div>
   <div class="nav-icons">
-    <svg viewBox="0 0 24 24" fill="none"><circle cx="11" cy="11" r="7" stroke-width="1.5"/><path d="M21 21l-4.3-4.3" stroke-width="1.5" stroke-linecap="round"/></svg>
-    <svg viewBox="0 0 24 24" fill="none"><path d="M6 9V7a6 6 0 1112 0v2M4 9h16l-1.2 12.1a2 2 0 01-2 1.9H7.2a2 2 0 01-2-1.9L4 9z" stroke-width="1.5" stroke-linejoin="round"/></svg>
+    <svg aria-label="Search" role="img" viewBox="0 0 24 24" fill="none"><circle cx="11" cy="11" r="7" stroke-width="1.5"/><path d="M21 21l-4.3-4.3" stroke-width="1.5" stroke-linecap="round"/></svg>
+    <svg aria-label="Shopping cart" role="img" viewBox="0 0 24 24" fill="none"><path d="M6 9V7a6 6 0 1112 0v2M4 9h16l-1.2 12.1a2 2 0 01-2 1.9H7.2a2 2 0 01-2-1.9L4 9z" stroke-width="1.5" stroke-linejoin="round"/></svg>
   </div>
 </nav>
 
@@ -53,7 +53,7 @@
 <main class="catalog" id="catalog">
 
   <!-- SHIRTS -->
-  <section class="cat-section" data-section>
+  <section class="cat-section" data-section id="shirts">
     <button class="cat-header" aria-expanded="false">
       <div class="cat-header-left">
         <span class="cat-index">01</span>
@@ -68,9 +68,9 @@
       <div class="cat-panel-inner">
         <p class="cat-desc">Heavyweight cotton, boxy cuts, hand-drawn graphics. Built to be worn until it's soft.</p>
         <div class="grid" data-grid>
-          <div class="card"><div class="card-img"><img src="media/images/shirts/temp.jpg" alt="Shirt 01"></div><div class="card-info"><span class="card-tag">Oversized Tee</span><span class="card-name">Field Notes Tee</span><span class="card-price">₹1,499</span></div></div>
-          <div class="card"><div class="card-img"><img src="media/images/shirts/temp.jpg" alt="Shirt 02"></div><div class="card-info"><span class="card-tag">Boxy Fit</span><span class="card-name">Ash Column Tee</span><span class="card-price">₹1,299</span></div></div>
-          <div class="card"><div class="card-img"><img src="media/images/shirts/temp.jpg" alt="Shirt 03"></div><div class="card-info"><span class="card-tag">Graphic</span><span class="card-name">Red Bloom Tee</span><span class="card-price">₹1,699</span></div></div>
+          <div class="card"><div class="card-img"><img src="media/images/collections/outfit.jpg" alt="Field Notes oversized tee"></div><div class="card-info"><span class="card-tag">Oversized Tee</span><span class="card-name">Field Notes Tee</span><span class="card-price">₹1,499</span></div></div>
+          <div class="card"><div class="card-img"><img src="media/images/collections/outfit.jpg" alt="Ash Column boxy tee"></div><div class="card-info"><span class="card-tag">Boxy Fit</span><span class="card-name">Ash Column Tee</span><span class="card-price">₹1,299</span></div></div>
+          <div class="card"><div class="card-img"><img src="media/images/collections/outfit.jpg" alt="Red Bloom graphic tee"></div><div class="card-info"><span class="card-tag">Graphic</span><span class="card-name">Red Bloom Tee</span><span class="card-price">₹1,699</span></div></div>
 
           <div class="card show-more-card" data-showmore>
             <button class="show-more-btn">
@@ -80,16 +80,16 @@
             </button>
           </div>
 
-          <div class="card extra"><div class="card-img"><img src="media/images/shirts/temp.jpg" alt="Shirt 04"></div><div class="card-info"><span class="card-tag">Minimal</span><span class="card-name">Quiet Script Tee</span><span class="card-price">₹1,199</span></div></div>
-          <div class="card extra"><div class="card-img"><img src="media/images/shirts/temp.jpg" alt="Shirt 05"></div><div class="card-info"><span class="card-tag">Heavyweight</span><span class="card-name">Slate Overtee</span><span class="card-price">₹1,899</span></div></div>
-          <div class="card extra"><div class="card-img"><img src="media/images/shirts/temp.jpg" alt="Shirt 06"></div><div class="card-info"><span class="card-tag">Long Sleeve</span><span class="card-name">Night Walk Tee</span><span class="card-price">₹1,599</span></div></div>
+          <div class="card extra"><div class="card-img"><img src="media/images/collections/outfit.jpg" alt="Quiet Script tee"></div><div class="card-info"><span class="card-tag">Minimal</span><span class="card-name">Quiet Script Tee</span><span class="card-price">₹1,199</span></div></div>
+          <div class="card extra"><div class="card-img"><img src="media/images/collections/outfit.jpg" alt="Slate heavyweight tee"></div><div class="card-info"><span class="card-tag">Heavyweight</span><span class="card-name">Slate Overtee</span><span class="card-price">₹1,899</span></div></div>
+          <div class="card extra"><div class="card-img"><img src="media/images/collections/outfit.jpg" alt="Night Walk long-sleeve tee"></div><div class="card-info"><span class="card-tag">Long Sleeve</span><span class="card-name">Night Walk Tee</span><span class="card-price">₹1,599</span></div></div>
         </div>
       </div>
     </div>
   </section>
 
   <!-- LAMPS -->
-  <section class="cat-section" data-section>
+  <section class="cat-section" data-section id="lamps">
     <button class="cat-header" aria-expanded="false">
       <div class="cat-header-left">
         <span class="cat-index">02</span>
@@ -104,9 +104,9 @@
       <div class="cat-panel-inner">
         <p class="cat-desc">Soft-form lighting for desks, shelves, and corners that need a little warmth.</p>
         <div class="grid" data-grid>
-          <div class="card"><div class="card-img"><img src="media/images/lamps/HARSH_LAMP.jpg" alt="Lamp 01"></div><div class="card-info"><span class="card-tag">Desk</span><span class="card-name">Curve Table Lamp</span><span class="card-price">₹2,199</span></div></div>
-          <div class="card"><div class="card-img"><img src="media/images/lamps/HARSH_LAMP.jpg" alt="Lamp 02"></div><div class="card-info"><span class="card-tag">Mushroom</span><span class="card-name">Cap Glow Lamp</span><span class="card-price">₹1,899</span></div></div>
-          <div class="card"><div class="card-img"><img src="media/images/lamps/HARSH_LAMP.jpg" alt="Lamp 03"></div><div class="card-info"><span class="card-tag">Floor</span><span class="card-name">Arc Standing Lamp</span><span class="card-price">₹4,499</span></div></div>
+          <div class="card"><div class="card-img"><img src="media/images/collections/lamp.jpg" alt="Curve table lamp"></div><div class="card-info"><span class="card-tag">Desk</span><span class="card-name">Curve Table Lamp</span><span class="card-price">₹2,199</span></div></div>
+          <div class="card"><div class="card-img"><img src="media/images/collections/lamp.jpg" alt="Cap Glow mushroom lamp"></div><div class="card-info"><span class="card-tag">Mushroom</span><span class="card-name">Cap Glow Lamp</span><span class="card-price">₹1,899</span></div></div>
+          <div class="card"><div class="card-img"><img src="media/images/collections/lamp.jpg" alt="Arc standing lamp"></div><div class="card-info"><span class="card-tag">Floor</span><span class="card-name">Arc Standing Lamp</span><span class="card-price">₹4,499</span></div></div>
 
           <div class="card show-more-card" data-showmore>
             <button class="show-more-btn">
@@ -116,15 +116,15 @@
             </button>
           </div>
 
-          <div class="card extra"><div class="card-img"><img src="media/images/lamps/HARSH_LAMP.jpg" alt="Lamp 04"></div><div class="card-info"><span class="card-tag">Ambient</span><span class="card-name">Paper Globe Lamp</span><span class="card-price">₹1,599</span></div></div>
-          <div class="card extra"><div class="card-img"><img src="media/images/lamps/HARSH_LAMP.jpg" alt="Lamp 05"></div><div class="card-info"><span class="card-tag">Clip-on</span><span class="card-name">Shelf Beam Lamp</span><span class="card-price">₹1,299</span></div></div>
+          <div class="card extra"><div class="card-img"><img src="media/images/collections/lamp.jpg" alt="Paper Globe ambient lamp"></div><div class="card-info"><span class="card-tag">Ambient</span><span class="card-name">Paper Globe Lamp</span><span class="card-price">₹1,599</span></div></div>
+          <div class="card extra"><div class="card-img"><img src="media/images/collections/lamp.jpg" alt="Shelf Beam clip-on lamp"></div><div class="card-info"><span class="card-tag">Clip-on</span><span class="card-name">Shelf Beam Lamp</span><span class="card-price">₹1,299</span></div></div>
         </div>
       </div>
     </div>
   </section>
 
   <!-- FIGURINES -->
-  <section class="cat-section" data-section>
+  <section class="cat-section" data-section id="figurines">
     <button class="cat-header" aria-expanded="false">
       <div class="cat-header-left">
         <span class="cat-index">03</span>
@@ -169,7 +169,7 @@
   </section>
 
   <!-- DAILY WEARING ESSENTIALS -->
-  <section class="cat-section" data-section>
+  <section class="cat-section" data-section id="dwe">
     <button class="cat-header" aria-expanded="false">
       <div class="cat-header-left">
         <span class="cat-index">04</span>
@@ -190,9 +190,9 @@
           <span class="subcat-pill" data-filter="nosepin">Nose Pins</span>
         </div>
         <div class="grid" data-grid>
-          <div class="card" data-sub="keychain"><div class="card-img"><img src="media/images/DEW/chain.jpg" alt="DWE 01"></div><div class="card-info"><span class="card-tag">Keychain</span><span class="card-name">Brushed Bar Keyring</span><span class="card-price">₹399</span></div></div>
-          <div class="card" data-sub="ring"><div class="card-img"><img src="media/images/DEW/chain.jpg" alt="DWE 03"></div><div class="card-info"><span class="card-tag">Ring</span><span class="card-name">Fine Band Ring</span><span class="card-price">₹899</span></div></div>
-          <div class="card" data-sub="nosepin"><div class="card-img"><img src="media/images/DEW/chain.jpg" alt="DWE 06"></div><div class="card-info"><span class="card-tag">Nose Pin</span><span class="card-name">Single Stud Pin</span><span class="card-price">₹299</span></div></div>
+          <div class="card" data-sub="keychain"><div class="card-img"><img src="media/images/collections/jewerlly.jpg" alt="DWE 01"></div><div class="card-info"><span class="card-tag">Keychain</span><span class="card-name">Brushed Bar Keyring</span><span class="card-price">₹399</span></div></div>
+          <div class="card" data-sub="ring"><div class="card-img"><img src="media/images/collections/jewerlly.jpg" alt="DWE 03"></div><div class="card-info"><span class="card-tag">Ring</span><span class="card-name">Fine Band Ring</span><span class="card-price">₹899</span></div></div>
+          <div class="card" data-sub="nosepin"><div class="card-img"><img src="media/images/collections/jewerlly.jpg" alt="DWE 06"></div><div class="card-info"><span class="card-tag">Nose Pin</span><span class="card-name">Single Stud Pin</span><span class="card-price">₹299</span></div></div>
 
           <div class="card show-more-card" data-showmore>
             <button class="show-more-btn">
@@ -202,11 +202,11 @@
             </button>
           </div>
 
-          <div class="card extra" data-sub="keychain"><div class="card-img"><img src="media/images/DEW/chain.jpg" alt="DWE 02"></div><div class="card-info"><span class="card-tag">Keychain</span><span class="card-name">Twin Flame Fob</span><span class="card-price">₹349</span></div></div>
-          <div class="card extra" data-sub="ring"><div class="card-img"><img src="media/images/DEW/chain.jpg" alt="DWE 04"></div><div class="card-info"><span class="card-tag">Ring</span><span class="card-name">Stacked Signet Ring</span><span class="card-price">₹1,099</span></div></div>
-          <div class="card extra" data-sub="ring"><div class="card-img"><img src="media/images/DEW/chain.jpg" alt="DWE 05"></div><div class="card-info"><span class="card-tag">Ring</span><span class="card-name">Matte Steel Ring</span><span class="card-price">₹799</span></div></div>
-          <div class="card extra" data-sub="nosepin"><div class="card-img"><img src="media/images/DEW/chain.jpg" alt="DWE 07"></div><div class="card-info"><span class="card-tag">Nose Pin</span><span class="card-name">Twist Wire Pin</span><span class="card-price">₹329</span></div></div>
-          <div class="card extra" data-sub="keychain"><div class="card-img"><img src="media/images/DEW/chain.jpg" alt="DWE 08"></div><div class="card-info"><span class="card-tag">Keychain</span><span class="card-name">Coin Drop Keyring</span><span class="card-price">₹449</span></div></div>
+          <div class="card extra" data-sub="keychain"><div class="card-img"><img src="media/images/collections/jewerlly.jpg" alt="DWE 02"></div><div class="card-info"><span class="card-tag">Keychain</span><span class="card-name">Twin Flame Fob</span><span class="card-price">₹349</span></div></div>
+          <div class="card extra" data-sub="ring"><div class="card-img"><img src="media/images/collections/jewerlly.jpg" alt="DWE 04"></div><div class="card-info"><span class="card-tag">Ring</span><span class="card-name">Stacked Signet Ring</span><span class="card-price">₹1,099</span></div></div>
+          <div class="card extra" data-sub="ring"><div class="card-img"><img src="media/images/collections/jewerlly.jpg" alt="DWE 05"></div><div class="card-info"><span class="card-tag">Ring</span><span class="card-name">Matte Steel Ring</span><span class="card-price">₹799</span></div></div>
+          <div class="card extra" data-sub="nosepin"><div class="card-img"><img src="media/images/collections/jewerlly.jpg" alt="DWE 07"></div><div class="card-info"><span class="card-tag">Nose Pin</span><span class="card-name">Twist Wire Pin</span><span class="card-price">₹329</span></div></div>
+          <div class="card extra" data-sub="keychain"><div class="card-img"><img src="media/images/collections/jewerlly.jpg" alt="DWE 08"></div><div class="card-info"><span class="card-tag">Keychain</span><span class="card-name">Coin Drop Keyring</span><span class="card-price">₹449</span></div></div>
         </div>
       </div>
     </div>

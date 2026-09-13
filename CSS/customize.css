@@ -108,7 +108,7 @@ a {
     transition: max-height 0.35s ease;
   }
   .nav-links.open {
-    max-height: 260px;
+    max-height: 220px;
   }
   .nav-links a {
     display: block;
